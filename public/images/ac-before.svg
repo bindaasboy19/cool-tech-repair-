@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#FFF7F0"/>
+  <circle cx="978" cy="170" r="122" fill="#FFE0CC"/>
+  <circle cx="205" cy="714" r="160" fill="#FFEBDD"/>
+  <rect x="150" y="150" width="900" height="560" rx="42" fill="white" stroke="#F6C6A8" stroke-width="8"/>
+  <rect x="220" y="255" width="760" height="170" rx="30" fill="#FFF1E5" stroke="#F5BB95" stroke-width="6"/>
+  <rect x="870" y="285" width="70" height="30" rx="15" fill="#F28B54"/>
+  <path d="M300 470H900" stroke="#D9D2CB" stroke-width="8" stroke-linecap="round"/>
+  <path d="M350 520C382.5 565 382.5 630 350 675" stroke="#D0572A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M470 520C502.5 565 502.5 630 470 675" stroke="#D0572A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M590 520C622.5 565 622.5 630 590 675" stroke="#D0572A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M710 520C742.5 565 742.5 630 710 675" stroke="#D0572A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M830 520C862.5 565 862.5 630 830 675" stroke="#D0572A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M905 215L975 285" stroke="#B63B0D" stroke-width="18" stroke-linecap="round"/>
+  <path d="M975 215L905 285" stroke="#B63B0D" stroke-width="18" stroke-linecap="round"/>
+  <rect x="160" y="72" width="212" height="64" rx="32" fill="#B63B0D"/>
+  <text x="266" y="113" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="30" font-weight="700">BEFORE</text>
+</svg>

@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-heading: "Trebuchet MS", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(255, 106, 28, 0.14), transparent 32%),
+    radial-gradient(circle at left top, rgba(255, 177, 124, 0.18), transparent 28%),
+    linear-gradient(180deg, #fffdf9 0%, #fff8f2 100%);
+  color: #1d130d;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(255, 106, 28, 0.18);
+  color: #7a2d12;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand-500 to-brand-700 px-5 py-3 text-sm font-semibold text-white shadow-glow transition hover:-translate-y-0.5 hover:shadow-[0_22px_50px_rgba(229,79,11,0.24)];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-200 bg-white px-5 py-3 text-sm font-semibold text-brand-700 transition hover:-translate-y-0.5 hover:border-brand-300 hover:bg-brand-50;
+  }
+
+  .surface-card {
+    @apply border border-white/80 bg-white/90 shadow-[0_18px_50px_rgba(29,19,13,0.06)] backdrop-blur;
+  }
+}

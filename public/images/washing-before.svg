@@ -1,0 +1,16 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#FFF8F2"/>
+  <circle cx="954" cy="168" r="128" fill="#FFE6D4"/>
+  <rect x="210" y="145" width="780" height="620" rx="46" fill="white" stroke="#F4C8AA" stroke-width="8"/>
+  <rect x="270" y="205" width="660" height="100" rx="28" fill="#FFF1E5"/>
+  <circle cx="360" cy="255" r="20" fill="#FF8E4B"/>
+  <circle cx="426" cy="255" r="20" fill="#FFB17C"/>
+  <circle cx="492" cy="255" r="20" fill="#FFD0AA"/>
+  <circle cx="600" cy="480" r="180" fill="#FFF1E5" stroke="#F3BF9B" stroke-width="10"/>
+  <circle cx="600" cy="480" r="108" fill="#FAD3B8"/>
+  <path d="M538 600C585 665 660 670 706 600" stroke="#CF572A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M500 420L560 480L500 540" stroke="#B63B0D" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M700 420L640 480L700 540" stroke="#B63B0D" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="220" y="72" width="212" height="64" rx="32" fill="#B63B0D"/>
+  <text x="326" y="113" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="30" font-weight="700">BEFORE</text>
+</svg>

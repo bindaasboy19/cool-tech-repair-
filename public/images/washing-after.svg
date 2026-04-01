@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F6FCFF"/>
+  <circle cx="954" cy="168" r="128" fill="#DDF1FF"/>
+  <rect x="210" y="145" width="780" height="620" rx="46" fill="white" stroke="#B7DBF6" stroke-width="8"/>
+  <rect x="270" y="205" width="660" height="100" rx="28" fill="#F2FAFF"/>
+  <circle cx="360" cy="255" r="20" fill="#2EBE77"/>
+  <circle cx="426" cy="255" r="20" fill="#8CD9AE"/>
+  <circle cx="492" cy="255" r="20" fill="#C8F0D8"/>
+  <circle cx="600" cy="480" r="180" fill="#ECF8FF" stroke="#B7DBF6" stroke-width="10"/>
+  <circle cx="600" cy="480" r="108" fill="#CFEFFF"/>
+  <path d="M520 500C560 568 640 568 680 500" stroke="#2E9DD8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M545 430C573 402 627 402 655 430" stroke="#2E9DD8" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="910" cy="230" r="42" fill="#2EBE77"/>
+  <path d="M892 231L905 244L929 218" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="220" y="72" width="212" height="64" rx="32" fill="#2EBE77"/>
+  <text x="326" y="113" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="30" font-weight="700">AFTER</text>
+</svg>
