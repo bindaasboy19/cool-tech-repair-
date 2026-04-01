@@ -128,7 +128,7 @@ export default function HomePage() {
               <div className="surface-card relative overflow-hidden rounded-[2.5rem] p-6 sm:p-8">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,106,28,0.16),transparent_32%),linear-gradient(160deg,rgba(255,255,255,0.96),rgba(255,248,242,0.84))]" />
                 <div className="relative space-y-8">
-                  <div className="flex items-start justify-between gap-4">
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-700">
                         Quick local support
@@ -137,7 +137,7 @@ export default function HomePage() {
                         Easy to call. Easy to trust.
                       </h2>
                     </div>
-                    <div className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-brand-700 shadow-sm">
+                    <div className="w-fit rounded-full bg-white px-4 py-2 text-sm font-semibold text-brand-700 shadow-sm">
                       Barhni
                     </div>
                   </div>
@@ -169,7 +169,7 @@ export default function HomePage() {
                   </div>
 
                   <div className="grid gap-3 rounded-[1.75rem] border border-dashed border-brand-200 bg-brand-50/70 p-5 text-sm text-stone-700">
-                    <div className="flex items-center justify-between gap-4">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
                       <span>Primary contact</span>
                       <a
                         href={siteConfig.primaryTel}
@@ -178,7 +178,7 @@ export default function HomePage() {
                         {siteConfig.primaryPhone}
                       </a>
                     </div>
-                    <div className="flex items-center justify-between gap-4">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
                       <span>Secondary contact</span>
                       <a
                         href={siteConfig.secondaryTel}
@@ -187,7 +187,7 @@ export default function HomePage() {
                         {siteConfig.secondaryPhone}
                       </a>
                     </div>
-                    <div className="flex items-center justify-between gap-4">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
                       <span>Instagram</span>
                       <a
                         href={siteConfig.instagramUrl}

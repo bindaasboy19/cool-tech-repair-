@@ -16,16 +16,16 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/70 bg-white/90 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
+        <Link href="/" className="flex min-w-0 flex-1 items-center gap-3 lg:flex-none">
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 font-heading text-lg font-semibold text-white shadow-glow">
             CT
           </div>
-          <div>
-            <p className="font-heading text-lg font-semibold text-ink">
+          <div className="min-w-0">
+            <p className="truncate font-heading text-base font-semibold text-ink sm:text-lg">
               Cool Tech Repair
             </p>
-            <p className="text-xs uppercase tracking-[0.24em] text-stone-500">
+            <p className="truncate text-[10px] uppercase tracking-[0.16em] text-stone-500 sm:text-xs sm:tracking-[0.24em]">
               Barhni Appliance Service
             </p>
           </div>
@@ -61,7 +61,7 @@ export function Navbar() {
 
         <button
           type="button"
-          className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-stone-200 text-stone-700 lg:hidden"
+          className="inline-flex h-11 w-11 flex-none items-center justify-center rounded-2xl border border-stone-200 text-stone-700 lg:hidden"
           onClick={() => setIsOpen((value) => !value)}
           aria-label="Toggle navigation menu"
           aria-expanded={isOpen}
